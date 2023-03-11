@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #000;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
