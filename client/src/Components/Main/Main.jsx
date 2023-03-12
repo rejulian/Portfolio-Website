@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutMe from './About Me/AboutMe'
+import Skills from './Skills/Skills'
 
 const Main = () => {
   return (
     <main>
-        Main
+        <AboutMe/>
+        <Skills/>
     </main>
   )
 }

@@ -1,0 +1,29 @@
+#skills{
+    padding: 40px 0;
+}
+
+.skills__container{
+    max-width: 600px;
+    height: 600px;
+    margin: auto; 
+}
+
+.skills__container__logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 100px;
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.logo img{
+    width: 60px;
+}
