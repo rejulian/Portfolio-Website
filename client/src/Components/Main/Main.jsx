@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './About Me/AboutMe'
+import Projects from './Projects/ProjectsContainer'
 import Skills from './Skills/Skills'
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <main>
         <AboutMe/>
         <Skills/>
+        <Projects/>
     </main>
   )
 }
