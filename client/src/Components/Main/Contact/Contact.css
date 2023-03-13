@@ -1,0 +1,39 @@
+#contact{
+    padding: 70px 0;
+    background-color: #e1e1e1;
+}
+
+.contact__text{
+    color: #5c5c5c;
+    font-size: 18px;
+    margin: auto;
+    max-width: 350px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contact__line{
+    background-color: rgba(0,0,0,.66);
+    height: 4px;
+    margin: 30px auto 0;
+    width: 150px;
+}
+
+.contact__icons__container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact__icons svg{
+    width: 40px;
+}

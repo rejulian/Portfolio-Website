@@ -39,9 +39,9 @@ const Skills = () => {
   ] 
 
   return (
-    <section id='skills' data-aos="fade-left">
-        <h2 className='titles'>Skills</h2>
-        <div className='skills__container'>
+    <section id='skills'>
+        <h2 className='titles' data-aos="fade-left">Skills</h2>
+        <div className='skills__container' data-aos="fade-left">
             <div className='skills__container__logo'>
                 {skills.map((skill,key) => {
                     return(

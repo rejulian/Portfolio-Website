@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Footer.css'
 const Footer = () => {
   return (
-    <footer>
-        Footer
+    <footer id='footer'>
+        <p>Designed by Julian Re.</p>
     </footer>
   )
 }
