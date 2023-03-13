@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-        <section id='hero'>
+        <section id='hero' data-aos="fade-up">
             <div className='hero__text'>
                 <h5>Hi! I'm</h5>
                 <h1>Julian Re</h1>

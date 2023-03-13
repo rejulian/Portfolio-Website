@@ -39,7 +39,7 @@ const Skills = () => {
   ] 
 
   return (
-    <section id='skills'>
+    <section id='skills' data-aos="fade-left">
         <h2 className='titles'>Skills</h2>
         <div className='skills__container'>
             <div className='skills__container__logo'>
